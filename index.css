@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #e6a5dd;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+h2 {
+/*   font-family: 'Raleway', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  text-transform: bold;
+  font-weight: 700;
+  color: #e6a5dd;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body {
+  font-family: font-family: 'Quicksand', sans-serif;
+  background-image: url("https://pngimage.net/wp-content/uploads/2018/06/grid-png-tumblr-2.png");
+  background-repeat: repeat;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 7px;
+  color: #797D7F;
+}
+
+
+.logo {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-right: 10px;
+  width: 80px;
+  height: 60px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+
+header {
+    background-image: url("");
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+
+header {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  padding: 0px 20px;
+  
+  align-items: center;
+  text-transform: lowercase;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 20px 50px 20px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
+}
+
+nav a {
+  font-weight: normal;
+  color: #9C8EFA;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 28px;
+  border: 1.5px dashed #fca4f1;
+  border-radius: 25px;
+  background: #fad4f5;
+  box-shadow: inset 0px 0px 15px #c28bfc;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  width: 7%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  margin-top: 30px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 80vw;
+  padding: 2px;
+}
+
+#watch {
+  padding-top: 160px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#watch > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 190px;
+
+}
+
+#newsletter > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  color: #7D6AFF;
+
+}
+
+#newsletter input[type='email'] {
+  
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  background: #f8e3ff;
+  border: 1px solid #FFD2D2;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -0px -1px 2px #f187f5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+
+}
+
+#newsletter input[type='submit'] {
+  max-width: 120px;
+  width: 100%;
+  height: 40px;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 25px;
+  background-color: #E1DCFF;
+  color: #7D6AFF;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  box-shadow: inset 0px 0px 15px #FFE5E5;
+}
+
+/* #newsletter input[placeholder='enter your email here'] {
+  color: #7D6AFF;
+} */
